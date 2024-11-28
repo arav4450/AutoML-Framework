@@ -19,7 +19,7 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`</code></pre>
     <li><strong>Install pip-tools</strong>: Install `pip-tools` for dependency management:
         <pre><code>pip install pip-tools</code></pre>
     </li>
-    <li><strong>Compile and Sync Dependencies</strong>: Use `pip-compile` to generate the `devs.txt` file and `pip-sync` to install the dependencies:
+    <li><strong>Compile and Sync Dependencies</strong>: Use `pip-compile` to generate the `dev.txt` file and `pip-sync` to install the dependencies:
         <pre><code>pip-compile dev.in
 pip-sync dev.txt</code></pre>
     </li>
