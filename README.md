@@ -23,7 +23,7 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`</code></pre>
         <pre><code>pip-compile dev.in
 pip-sync dev.txt</code></pre>
     </li>
-    <li><strong>Running the Project</strong>Execute the main pipeline:
+    <li><strong>Running the Project</strong>: Execute the main pipeline:
         <pre><code>python main.py</code></pre>
     </li>
     
